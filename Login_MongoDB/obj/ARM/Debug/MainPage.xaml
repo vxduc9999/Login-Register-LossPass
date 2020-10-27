@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="Login_MongoDB.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Login_MongoDB"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBox x:ConnectionId='2' x:Name="username" HorizontalAlignment="Left" Margin="146,243,0,0" Text="&#xD;&#xA;" TextWrapping="Wrap" VerticalAlignment="Top" Height="68" Width="596"/>
+        <PasswordBox x:ConnectionId='3' x:Name="password" HorizontalAlignment="Left" Height="82" Margin="146,390,0,0" VerticalAlignment="Top" Width="596"/>
+        <TextBlock HorizontalAlignment="Left" Margin="146,185,0,0" Text="Username" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="262"/>
+        <TextBlock HorizontalAlignment="Left" Margin="146,344,0,0" Text="Password" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" Height="41"/>
+        <Button x:ConnectionId='4'               Content="Login" Margin="146,500,0,0" VerticalAlignment="Top" Width="132" Height="83"/>
+        <TextBlock x:ConnectionId='5' x:Name="thongbao" HorizontalAlignment="Left" Margin="774,268,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="262" Height="129"/>
+        <Button x:ConnectionId='6' x:Name="SignUp" Content="Đăng ký" Height="83" Margin="316,500,0,0" VerticalAlignment="Top" Width="142"                      IsEnabled="False"/>
+        <Button x:ConnectionId='7' x:Name="logOut" Content="Đăng Xuất" Height="83" Margin="496,500,0,0" VerticalAlignment="Top" Width="127"                      IsEnabled="False"/>
+        <Button x:ConnectionId='8' x:Name="LostPass" Content="Quên mật khẩu" Height="83" Margin="647,500,0,0" VerticalAlignment="Top" Width="127"                       />
+    </Grid>
+</Page>
+
